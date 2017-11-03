@@ -1,0 +1,18 @@
+Policy: @(selected_test_outcome)rand_test(selected_test_outcome,region_test) 
+Values: 86.000000 +- 3.000000 
+Policy: @(selected_test_outcome)max_prob_region_rand_test(selected_test_outcome,region_test,test_bias) 
+Values: 11.000000 +- 1.750000 
+Policy: @(selected_test_outcome)max_l1_diff(selected_test_outcome,region_test,test_bias,false) 
+Values: 10.000000 +- 1.750000 
+Policy: @(selected_test_outcome)max_l1_diff(selected_test_outcome,region_test,test_bias,true) 
+Values: 8.500000 +- 1.750000 
+Policy: @(selected_test_outcome)prob_weighted_max_tally_test(selected_test_outcome,region_test,test_bias,false) 
+Values: 11.000000 +- 2.750000 
+Policy: @(selected_test_outcome)prob_weighted_max_tally_test(selected_test_outcome,region_test,test_bias,true) 
+Values: 11.000000 +- 2.250000 
+Policy: @(selected_test_outcome)max_set_cover(selected_test_outcome,region_test,test_bias,false) 
+Values: 41.000000 +- 1.000000 
+Policy: @(selected_test_outcome)max_set_cover(selected_test_outcome,region_test,test_bias,true) 
+Values: 12.000000 +- 2.500000 
+Policy: @(selected_test_outcome)direct_drd_bern_max_prob(selected_test_outcome,region_test,test_bias,test_cost) 
+Values: 9.000000 +- 1.750000 
