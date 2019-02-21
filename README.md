@@ -25,12 +25,12 @@ The files are as follows:
 
 2. start_idx.dat, goal_idx.dat: Start and goal id
 
-3. coll_check_results.dat: Binary matrix (num_worlds x number of edges) where 0 is valid and 1 is invalid
+3. coll_check_results.dat: Binary matrix (num_worlds x number of edges) where 0 is invalid and 1 is valid
 
 4. path_library.dat: Library of paths to select from. The format is as follows:
 Each line is a set of vertex ids which define the path. The first id is start_id and last id is goal_id
 
-5. world_library_assignment.dat: Binary matrix (num_worlds x number of paths) where 0 implies the path is valid in the world. 
+5. world_library_assignment.dat: Binary matrix (num_worlds x number of paths) where 1 implies the path is valid in the world. 
 
 Optionally for 2D environments, we have additional files:
 1. coord_set.mat: The 2D coordinate corresponding to each vertex
